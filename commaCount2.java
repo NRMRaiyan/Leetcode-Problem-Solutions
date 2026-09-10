@@ -1,6 +1,6 @@
 //Problem Link - https://leetcode.com/problems/count-commas-in-range-ii/?envType=daily-question&envId=2026-09-09
 
-public class commaCount {
+public class commaCount2 {
     public long countCommas(long n) {
         long total = 0;
         long lower = 1;
@@ -30,7 +30,7 @@ public class commaCount {
     }
 
     public static void main(String [] args){
-        commaCount sol = new commaCount();
+        commaCount2 sol = new commaCount2();
         System.out.println(sol.countCommas(1002)); // 3
         System.out.println(sol.countCommas(998));   // 0
         System.out.println(sol.countCommas(1000000000000000L)); // test large
